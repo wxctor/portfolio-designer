@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap");
+
+/*.titulo {text-align:center;
+   font-size:80px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color:#548CA8;
+   background-color:#334257;
+   margin:auto;
+   border-radius:20px;
+}*/
+.logo {
+  display: flex;
+  position: static;
+}
+
+.subtitle {
+  text-align: initial;
+  font-family: "Poppins", Arial, sans-serif;
+  color: #334257;
+  padding: 0px 20px 0px 20px;
+  width: 137px;
+  margin: 0;
+  font-weight: 700;
+  border: 1px solid #334257;
+  border-radius: 20px;
+}
+
+.subtitle1 {
+  text-align: initial;
+  font-family: "Poppins", Arial, sans-serif;
+  color: #334257;
+  padding: 0px 20px 0px 20px;
+  width: 196px;
+  margin: 0;
+  margin-top: 90px;
+  margin-bottom: 40px;
+  font-weight: 700;
+  border: 1px solid #334257;
+  border-radius: 20px;
+}
+
+.cabecalho {
+  background-image: linear-gradient(to right, #eeee, #536073);
+  padding: 5px 10px;
+  display: flex;
+}
+
+.cabecalho h1 {
+  color: #334257;
+  font-family: "Poppins", Arial, sans-serif;
+  margin-top: auto;
+
+}
+
+.arts {
+  position: relative;
+  box-shadow: 2px 2px 6px 0px #00000038;
+  border-radius: 10px;
+}
+
+#h1 {
+  color: #334257;
+  font-size: 17px;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 700;
+  margin: 1px 4px 0px 5px;
+}
+
+.lightdark {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.sobremim {
+  font-size: 17px;
+  font-family: "Poppins", Arial, sans-serif;
+  color: #334257;
+  margin-bottom: 20px;
+}
+
+/*BOTÃO MODO DARK/LIGHT*/
+.trilho {
+  width: 50px;
+  height: 15px;
+  background-color: #548ca8;
+  position: sticky;
+  right: 1300px;
+  bottom: -5px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 6px 0px;
+}
+
+.trilho .indicador {
+  width: 14px;
+  height: 14px;
+  background-color: #334257;
+  border-radius: 50%;
+  transform: scale(0.8);
+  position: absolute;
+  left: 0;
+  transition: 0.5s;
+}
+
+.trilho.dark {
+  background-color: #eeee;
+}
+
+.trilho.dark .indicador {
+  left: 36px;
+  background-color: #548ca8;
+}
+
+body {
+  background-color:#EEEE;
+  transition: 0.5s;
+  margin: auto;
+}
+
+.gabi {
+  display: flex;
+  margin-bottom: 180px;
+  margin-top: 23px;
+  align-items: center;
+}
+.gabi .paragrafo {
+  width: 330px;
+  padding: 20px 20px 20px;
+  text-shadow: 1px 0px 40px #548ca8db;
+}
+
+.carnauba {
+  display: flex;
+  margin-bottom: 180px;
+  align-items: center;
+}
+.carnauba .paragrafo {
+  width: 330px;
+  padding: 20px 20px 20px;
+  text-shadow: 1px 0px 40px #548ca8db;
+}
+
+.post {
+  display: flex;
+  margin-bottom: 180px;
+  align-items: center;
+}
+.post .paragrafo {
+  width: 330px;
+  padding: 20px 20px 20px;
+  text-shadow: 1px 0px 40px #548ca8db;
+}
+
+.outlet {
+  display: flex;
+  margin-bottom: 180px;
+  align-items: center;
+}
+.outlet .paragrafo {
+  width: 330px;
+  padding: 20px 20px 20px;
+  text-shadow: 1px 0px 40px #548ca8db;
+}
+
+.xoxo{
+  display: flex;
+  margin-bottom: 180px;
+  align-items: center;
+}
+.xoxo .paragrafo{
+  width: 330px;
+  padding: 20px 20px 20px;
+  text-shadow: 1px 0px 40px #548ca8db;
+}
+
+.thumb {
+  display: flex;
+  margin-bottom: 180px;
+  align-items: center;
+}
+.thumb .paragrafo {
+  width: 330px;
+  padding: 20px 20px 20px;
+  text-shadow: 1px 0px 40px #548ca8db;
+}
+
+.thumb2{
+  display: flex;
+  margin-bottom: 180px;
+  align-items: center;
+}
+.thumb2 .paragrafo {
+  width: 330px;
+  padding: 20px 20px 20px;
+  text-shadow: 1px 0px 40px #548ca8db;
+}
+
+.paragrafo {
+  font-size: 18px;
+  font-family: "Poppins", Arial, sans-serif;
+  color: #334257;
+}
+
+.rodape {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.formulario {
+  text-align: center;
+  display: block;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  height: 30px;
+  width: 30px;
+}
+
+footer a {
+  color: #334257;
+  margin: 20px 10px 80px 8px;
+  text-decoration: none;
+}
+
+.rodape h3 {
+  font-family: "Poppins", Arial, sans-serif;
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+  margin-bottom: 0;
+}
+.rodape p{
+  font-size: large;
+  font-family: 'Poppins', Arial, sans-serif;
+  text-align: center;
+  padding: 50px 60px 0px 60px;
+}
+
+.container {
+  padding: 4px 40px;
+}
+
+a:hover {
+  color: #548ca8;
+}
+/*TEMA ESCURO*/
+body.dark {
+  background-color: #334257;
+}
+
+body.dark #h1 {
+  color: #548ca8;
+}
+
+body.dark .titulo {
+  background-color: #eeee;
+  color: #334257;
+}
+
+body.dark .subtitle {
+  color: #eeee;
+  border: 1px solid #eeee;
+}
+
+body.dark .subtitle1 {
+  color: #eeee;
+  border: 1px solid #eeee;
+}
+
+body.dark .paragrafo {
+  color: #eeee;
+}
+
+body.dark .sobremim {
+  color: #eeee;
+}
+
+body.dark a {
+  color: #334257;
+}
+body.dark a:hover {
+  color: #548ca8;
+}
+.gabi-effect, .efeito-txt, .carnauba-effect, .post-effect, .outlet-effect, .xoxo-effect, .thumb-effect, .thumb2-effect{
+  visibility: hidden;
+}
+
+@media screen and (max-width: 900px) {
+  .thumb {
+    flex-direction: column;
+    align-items: initial;
+  }
+  .gabi {
+    flex-direction: column;
+    align-items: initial;
+  }
+  .carnauba {
+    flex-direction: column;
+    align-items: initial;
+  }
+  .post {
+    flex-direction: column;
+    align-items: initial;
+  }
+  .outlet {
+    flex-direction: column;
+    align-items: initial;
+  }
+  .xoxo{
+    flex-direction: column;
+    align-items: initial;
+  }
+  .thumb2{
+    flex-direction: column;
+    align-items: initial;
+  }
+  .container{
+   padding: 4px 20px
+  }
+  .arts {
+    width: 100%;
+    height: 100%;
+  }
+  .caixa-arts .paragrafo {
+    margin-left: -20px;
+    margin-top: 0px;
+  }
+
+  .lightdark{
+   margin-right: -20px;
+  }
+
+  #h1{
+   font-size: 12px;
+  }
+
+  .subtitle{
+   margin-top: -30px;
+  }
+  .subtitle1{
+   margin-bottom: 10px;
+  }
+
+  .trilho {
+   width: 30px;
+   height: 10px;
+ }
+ .trilho .indicador {
+   width: 10px;
+   height: 10px;
+   transform: scale(0.8);
+   left: 0;
+   transition: 0.5s;
+ }
+ .trilho.dark .indicador {
+   left: 20px;
+   background-color: #548ca8;
+ }
+ .rodape p{
+  padding: 50px 20px 0px 20px;
+ }
+}
+
+/*FORMATAÇÃO DA SCROLLBAR*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: cadetblue;
+}
